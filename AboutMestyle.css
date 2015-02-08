@@ -80,3 +80,18 @@ section > h1 {
 a {
   font-weight: bold;
 }
+
+@media only screen and (max-width: 500px) {
+  .masthead {
+    padding: 3em 0;
+  }
+  .masthead-heading {
+    font-size: 3em;
+  }
+  .content-footer {
+    padding: 3em;
+    font-size: 0.8em;
+
+  }
+}
+
